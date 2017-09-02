@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_custom_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="#4DB6AC">
+<ImageButton
+    android:id="@+id/ib_close"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_close"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@null"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_popup_petunjuk"
+    android:text="@string/petunjuk_kuis"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="10dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:paddingTop="25sp"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:textColor="#000"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_popup_peraturan1"
+    android:text="@string/peraturan_kuis1"
+    android:layout_below="@id/tv_popup_petunjuk"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:textColor="#000"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:textColor="#000"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_popup_peraturan2"
+    android:text="@string/peraturan_kuis2"
+    android:layout_below="@id/tv_popup_peraturan1"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_popup_peraturan3"
+    android:textColor="#000"
+    android:text="@string/peraturan_kuis3"
+    android:layout_below="@id/tv_popup_peraturan2"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/tv_popup_peraturan4"
+    android:text="@string/peraturan_kuis4"
+    android:layout_below="@id/tv_popup_peraturan3"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/tv_popup_peraturan5"
+    android:text="@string/peraturan_kuis5"
+    android:layout_below="@id/tv_popup_peraturan4"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:id="@+id/tv_popup_peraturan6"
+    android:text="@string/peraturan_kuis6"
+    android:layout_below="@id/tv_popup_peraturan5"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:paddingBottom="25sp"/>
+</RelativeLayout>

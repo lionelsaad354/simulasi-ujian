@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_iak"
+            android:icon="@drawable/ic_iak"
+            android:title="Indonesia Android Kejar" />
+        <item
+            android:id="@+id/nav_apps"
+            android:icon="@drawable/ic_apps"
+            android:title="Tentang Aplikasi" />
+    </group>
+
+    <item android:title="Step Ujian SIM C">
+        <menu>
+            <item
+                android:id="@+id/soal_1"
+                android:icon="@drawable/ic_1"
+                android:title="Soal Pertama" />
+            <item
+                android:id="@+id/soal_2"
+                android:icon="@drawable/ic_2"
+                android:title="Soal Kedua" />
+            <item
+                android:icon="@drawable/ic_3"
+                android:id="@+id/soal_3"
+                android:title="Soal Ketiga" />
+            <item
+                android:icon="@drawable/ic_4"
+                android:id="@+id/soal_4"
+                android:title="Soal Keempat" />
+            <item
+                android:icon="@drawable/ic_5"
+                android:id="@+id/soal_5"
+                android:title="Soal Kelima" />
+        </menu>
+    </item>
+
+</menu>

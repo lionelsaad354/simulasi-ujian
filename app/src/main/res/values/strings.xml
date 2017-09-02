@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Simulasi Ujian SIM C</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    //String UNtuk ViewPager
+    <string name="view_page_1">Cara Ikut IAK</string>
+    <string name="view_page_2">Apa Itu Indonesia Android Kejar</string>
+    <string name="view_page_3">Cerita Saya Dengan IAK</string>
+
+    <string name="petunjuk_kuis">Petunjuk UJian SIM C</string>
+    <string name="peraturan_kuis1">1. Jawab Semua Ujian dengan benar</string>
+    <string name="peraturan_kuis2">2. Jika jawaban anda salah maka akan muncul PopUp silang berwarna merah dan anda harus mencari jawaban yang benar</string>
+    <string name="peraturan_kuis3">3. Dan jika jawaban anda benar maka akan muncul PopUp centang warna hijau dan anda boleh melanjutkan ke soal berikutnya</string>
+    <string name="peraturan_kuis4">4. Selesaikan ujian singkat ini sampai akhir dan jangan menyerah</string>
+    <string name="peraturan_kuis6">6. Jika anda tidak tahu jawabannya anda boleh tanya teman atau mbah Google</string>
+    <string name="peraturan_kuis5">5. Ujian ini cuma sebagai simulasi saja bukan untuk tujuan yang lain</string>
+    //Penjelasan IAK
+    <string name="apa_itu_iak1">Indonesia Android Kejar adalah sebuah program belajar pemrograman Android dengan sistem Kelompok Belajar (Kejar). Yang lebih spesial lagi kegiatan ini didukung penuh oleh Google Developers sebagai sponsor utamanya.</string>
+    <string name="apa_itu_iak2">Lalu apa sih manfaatnya ikut IAK ini? Banyak! Pertama kamu bisa belajar pemrograman Android dengan Aplikasi Ekslusif dari Google yaitu Android Studio. Kedua kamu bisa kenal lebih banyak Developers dari kotamu dan luarkotamu. Ketiga kamu bisa saja ditawari menjadi engineer oleh Google atau oleh startup lokal dan lebih kerennya bisa mendapatkan Beasiswa dari Google.</string>
+    <string name="apa_itu_iak3">Nah, bagaimana? Tertarik? Untuk tahun 2017 ini IAK sudah berjalan dengan Batch 3-nya. Dan untuk bulan ini sudah memasuki periode kedua, tapi jangan kecewa masih ada dua periode kok sepanjang tahun ini. Lalu gimana cara daftarnya? Swipe ke kanan yah!</string>
+    <string name="sekilas_saya">Hay, namaku Saad Fauzi akrab dipanggil Fauzi. Sampai saat aplikasi ini dibuat saya masih bekerja di salah satu perusahaan swasta di Kota Kudus. Pengalaman saya ikut program IAK ini semenjak IAK Batch 3 periode pertama kemarin. Sebelum ikut IAK ini pengalaman Coding saya nol besar. Kalau soal berkutat didunia IT mungkin saya sudah lama, sempat belajar bongkar pasang dan troubleshooting PC saat masih SMK, belajar Jaringan dan lainsebagainya namun untuk Coding dan menjadi Developer aplikasi saat itu belum terpikir dibenak saya. Dulu juga sempat main Adsense di blog namun gak bertahan lama, mungkin karena passion kali ya?Nah, untuk saat ini rasanya saya ingin belajar lebih jauh lagi mengenai Android Developer dan semoga saja ada passion saya didalamnya.</string>
+    //Soal Ujian
+    <string name="soal_pertama">Rambu dengan warna dasar kuning dengan lambang atau tulisan berwarna hitam merupakan :</string>
+    <string name="soal_kedua">Apa arti rambu diatas?</string>
+    <string name="soal_ketiga">Surat Ijin Mengemudi Golongan C digunakan untuk ...</string>
+    <string name="soal_kelima">Ketika anda berhadapan dengan lampu rambu lalulintas berwarna kuning yang berkedip-kedip, maka tindakan yang benar adalah ...</string>
+</resources>

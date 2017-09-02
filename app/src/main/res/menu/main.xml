@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        app:showAsAction="never"
+        android:title="Profile"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/tentang_iak"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Tentang IAK"/>
+    <item
+        android:id="@+id/tentang_apilkasi"
+        app:showAsAction="never"
+        android:title="Tentang Aplikasi"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/exit"
+        app:showAsAction="never"
+        android:title="Keluar"
+        android:orderInCategory="100"/>
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/ll_kedua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="net.lionelsaad.ujiansim.ActivityKuis1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal Ujian Kedua"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/gbs_1"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soal_kedua"/>
+    </android.support.v7.widget.CardView>
+
+    <RadioGroup
+        android:id="@+id/rbg_kedua"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:onClick="pilihanKedua"
+            android:id="@+id/soal_kedua_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyempitan Jalan Kanan"/>
+        <RadioButton
+            android:onClick="pilihanKedua"
+            android:id="@+id/soal_kedua_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jalan Lurus Saja"/>
+        <RadioButton
+            android:onClick="pilihanKedua"
+            android:id="@+id/soal_kedua_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ada Perbaikan Jalan"/>
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_lanjut_soal_kedua"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_gravity="end"
+        android:id="@+id/ib_close_ucapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_marginTop="20dp"
+        android:background="@null"/>
+    <TextView
+        android:layout_above="@+id/tv_selamat2"
+        android:id="@+id/tv_selamat1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Kepada Anda"/>
+    <TextView
+        android:id="@+id/tv_selamat2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telah Menyelesaikan"/>
+    <ImageView
+        android:id="@+id/ivy_selamat"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_apps"/>
+    <TextView
+        android:id="@+id/tv_selamat3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simulasi Ujian SIM C"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Semoga Bermanfaat"/>
+</LinearLayout>

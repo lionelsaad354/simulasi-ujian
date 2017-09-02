@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.lionelsaad.ujiansim.TentangAplikasi">
+    <TextView
+        android:layout_above="@+id/tv_2"
+        android:text="@string/app_name"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_above="@+id/ivy_1"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:text="Version Aplikasi 1.0.0"
+        android:id="@+id/tv_2"
+        android:textColor="@color/hitam"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_apps"
+        android:id="@+id/ivy_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_below="@id/ivy_1"
+        android:textStyle="italic"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/hitam"
+        android:text="Supportted by:"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/tv_3"
+        android:textSize="20sp"
+        android:textColor="@color/hitam"
+        android:gravity="center_horizontal"
+        android:text="Indonesia Android Kejar Batch 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

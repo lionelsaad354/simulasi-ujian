@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="net.lionelsaad.ujiansim.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_ujiansim"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulasi Ujian SIM C"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_below="@id/tv_ujiansim"
+        android:id="@+id/iv_1"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/ujian_sim"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <Button
+            android:layout_weight="1"
+            android:background="@null"
+            android:id="@+id/btn_exit"
+            android:text="Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_weight="1"
+            android:textColor="@color/red"
+            android:background="@color/secondary_text"
+            android:text="Rules"
+            android:id="@+id/peraturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="Next"
+            android:id="@+id/next_kuis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
